@@ -1,6 +1,6 @@
 # MyToken (MTK) — ERC-20 Token Project
 
-## 📌 Overview
+## Overview
 MyToken (MTK) is a fully functional ERC-20 token implemented in Solidity for educational purposes.  
 This project demonstrates how cryptocurrency tokens work on the Ethereum blockchain, including token creation, balance tracking, transfers, allowances, and event logging.
 
@@ -8,7 +8,7 @@ The token follows the **ERC-20 standard**, enabling compatibility with wallets, 
 
 ---
 
-## 📦 Token Details
+##  Token Details
 | Property      | Value                     |
 |---------------|---------------------------|
 | **Name**      | MyToken                   |
@@ -20,7 +20,7 @@ The token follows the **ERC-20 standard**, enabling compatibility with wallets, 
 
 ---
 
-## ❓ What Is ERC-20?
+##  What Is ERC-20?
 ERC-20 is the **Ethereum token standard** that defines a common interface for fungible tokens.  
 It ensures that all tokens behave in a predictable way by implementing functions like:
 
@@ -38,26 +38,26 @@ This allows tokens to be easily integrated into decentralised applications, wall
 
 ---
 
-## ✨ Features Implemented (Meets All Requirements)
+##  Features Implemented (Meets All Requirements)
 
-### ✔ Core ERC-20 Functions
+###  Core ERC-20 Functions
 - `balanceOf(address)`  
 - `transfer(address _to, uint256 _value)`  
 - `approve(address _spender, uint256 _value)`  
 - `transferFrom(address _from, address _to, uint256 _value)`  
 - `allowance(address owner, address spender)`
 
-### ✔ Event Emissions
+###  Event Emissions
 - `Transfer` emitted on all token transfers  
 - `Approval` emitted on allowance updates  
 
-### ✔ Validations & Security
+###  Validations & Security
 - Prevents transfers to zero address  
 - Verifies sufficient balance  
 - Verifies allowance before transferFrom  
 - Uses Solidity **0.8.x**, which has built-in overflow protection  
 
-### ✔ Code Quality
+###  Code Quality
 - Clean variable names  
 - Comments explaining logic  
 - Simple, beginner-friendly structure  
