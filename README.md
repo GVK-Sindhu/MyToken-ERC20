@@ -64,4 +64,3 @@ This allows tokens to be easily integrated into decentralised applications, wall
 
 ---
 
-## 🧩 Project Structure
